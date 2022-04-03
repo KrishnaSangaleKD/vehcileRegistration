@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addingvehcile"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="top">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addtitle"
+        android:text="Add Vehcile"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addinginfo"
+        android:text="Please enter the below details to add your vehcile"
+        android:textSize="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addinginfo2"
+        android:text="WARNING! You cannot add more than two vehciles"
+        android:textSize="14dp"
+        android:textColor="@color/design_default_color_error"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollview2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addingvehcile2"
+            android:orientation="vertical"
+            android:gravity="top">
+
+                <EditText
+                    android:id="@+id/vehcilenum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/ownername"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/owneraddress"
+                    android:textSize="15dp"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/monthandyear"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/date"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/wheeler"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp" />
+
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/color"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp" />
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/company"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp" />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Addbutton"
+                android:text="Add Vehcile"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="65dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
